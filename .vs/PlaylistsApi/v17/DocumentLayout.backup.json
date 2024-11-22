@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\raulb\\source\\repos\\PlaylistsApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C3E64C6-FEA9-420D-ABE1-6498D2F049B8}|PlaylistsApi\\PlaylistsApi.csproj|c:\\users\\raulb\\source\\repos\\playlistsapi\\playlistsapi\\cadastropage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C3E64C6-FEA9-420D-ABE1-6498D2F049B8}|PlaylistsApi\\PlaylistsApi.csproj|solutionrelative:playlistsapi\\cadastropage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C3E64C6-FEA9-420D-ABE1-6498D2F049B8}|PlaylistsApi\\PlaylistsApi.csproj|c:\\users\\raulb\\source\\repos\\playlistsapi\\playlistsapi\\cadastropage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C3E64C6-FEA9-420D-ABE1-6498D2F049B8}|PlaylistsApi\\PlaylistsApi.csproj|solutionrelative:playlistsapi\\cadastropage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C3E64C6-FEA9-420D-ABE1-6498D2F049B8}|PlaylistsApi\\PlaylistsApi.csproj|c:\\users\\raulb\\source\\repos\\playlistsapi\\playlistsapi\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C3E64C6-FEA9-420D-ABE1-6498D2F049B8}|PlaylistsApi\\PlaylistsApi.csproj|solutionrelative:playlistsapi\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C3E64C6-FEA9-420D-ABE1-6498D2F049B8}|PlaylistsApi\\PlaylistsApi.csproj|c:\\users\\raulb\\source\\repos\\playlistsapi\\playlistsapi\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C3E64C6-FEA9-420D-ABE1-6498D2F049B8}|PlaylistsApi\\PlaylistsApi.csproj|solutionrelative:playlistsapi\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C3E64C6-FEA9-420D-ABE1-6498D2F049B8}|PlaylistsApi\\PlaylistsApi.csproj|c:\\users\\raulb\\source\\repos\\playlistsapi\\playlistsapi\\config\\apiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C3E64C6-FEA9-420D-ABE1-6498D2F049B8}|PlaylistsApi\\PlaylistsApi.csproj|solutionrelative:playlistsapi\\config\\apiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CadastroPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\raulb\\source\\repos\\PlaylistsApi\\PlaylistsApi\\CadastroPage.xaml.cs",
+              "RelativeDocumentMoniker": "PlaylistsApi\\CadastroPage.xaml.cs",
+              "ToolTip": "C:\\Users\\raulb\\source\\repos\\PlaylistsApi\\PlaylistsApi\\CadastroPage.xaml.cs",
+              "RelativeToolTip": "PlaylistsApi\\CadastroPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T12:40:44.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CadastroPage.xaml",
+              "DocumentMoniker": "C:\\Users\\raulb\\source\\repos\\PlaylistsApi\\PlaylistsApi\\CadastroPage.xaml",
+              "RelativeDocumentMoniker": "PlaylistsApi\\CadastroPage.xaml",
+              "ToolTip": "C:\\Users\\raulb\\source\\repos\\PlaylistsApi\\PlaylistsApi\\CadastroPage.xaml",
+              "RelativeToolTip": "PlaylistsApi\\CadastroPage.xaml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-20T12:39:42.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\raulb\\source\\repos\\PlaylistsApi\\PlaylistsApi\\Config\\ApiConfig.cs",
+              "RelativeDocumentMoniker": "PlaylistsApi\\Config\\ApiConfig.cs",
+              "ToolTip": "C:\\Users\\raulb\\source\\repos\\PlaylistsApi\\PlaylistsApi\\Config\\ApiConfig.cs",
+              "RelativeToolTip": "PlaylistsApi\\Config\\ApiConfig.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwCwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T12:37:27.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\raulb\\source\\repos\\PlaylistsApi\\PlaylistsApi\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "PlaylistsApi\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\raulb\\source\\repos\\PlaylistsApi\\PlaylistsApi\\LoginPage.xaml",
+              "RelativeToolTip": "PlaylistsApi\\LoginPage.xaml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-20T12:35:52.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\raulb\\source\\repos\\PlaylistsApi\\PlaylistsApi\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "PlaylistsApi\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\raulb\\source\\repos\\PlaylistsApi\\PlaylistsApi\\LoginPage.xaml.cs",
+              "RelativeToolTip": "PlaylistsApi\\LoginPage.xaml.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwD8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T12:35:50.577Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

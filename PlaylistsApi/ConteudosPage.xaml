@@ -1,0 +1,103 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlaylistsMaui.ConteudosPage"
+             Title="Conteúdos">
+    <ContentPage.Resources>
+        <Style x:Key="CardStyle" TargetType="Border">
+            <Setter Property="Padding" Value="15"/>
+            <Setter Property="Margin" Value="15, 10"/>
+            <Setter Property="BackgroundColor" Value="White"/>
+            <Setter Property="Stroke" Value="{StaticResource LakersGold}"/>
+            <Setter Property="StrokeThickness" Value="2"/>
+            <Setter Property="StrokeShape">
+                <Setter.Value>
+                    <RoundRectangle CornerRadius="5" />
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Shadow" Value="5"/>
+        </Style>
+    </ContentPage.Resources>
+
+    <Grid RowDefinitions="Auto,Auto,*" BackgroundColor="{StaticResource LakersPurple}">
+
+        <!-- Botão para adicionar novo conteúdo -->
+        <Grid Grid.Row="0" Padding="10">
+            <Button Text="+ Novo Conteúdo"
+                    TextColor="White"
+                    BackgroundColor="{StaticResource LakersGold}"
+                    CornerRadius="20"
+                    HeightRequest="40"
+                    WidthRequest="200"
+                    HorizontalOptions="Start"
+                    VerticalOptions="Center"
+                    Clicked="OnAddButtonClicked"/>
+
+            <Label x:Name="CriadorLabel"
+                   Text="{Binding CriadorNome}"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   TextColor="{StaticResource LakersGold}"
+                   HorizontalOptions="End"
+                   VerticalOptions="Center"/>
+        </Grid>
+
+        <!-- Lista de Conteúdos -->
+        <CollectionView x:Name="ConteudosCollectionView"
+                        Grid.Row="2"
+                        HorizontalOptions="Center"
+                        VerticalOptions="FillAndExpand"
+                        ItemsLayout="VerticalList">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Border Style="{StaticResource CardStyle}">
+                        <Grid RowDefinitions="Auto,Auto,Auto">
+
+                            <Label Grid.Row="0"
+                                   Text="{Binding Titulo}"
+                                   FontSize="20"
+                                   FontAttributes="Bold"
+                                   TextColor="{StaticResource LakersPurple}" />
+
+                            <Label Grid.Row="1"
+                                   Text="{Binding Tipo}"
+                                   FontSize="16"
+                                   TextColor="Gray" />
+
+                            <Grid Grid.Row="2"
+                                  ColumnDefinitions="Auto,Auto"
+                                  HorizontalOptions="End"
+                                  Margin="0,10,0,0">
+                                <Button Grid.Column="0"
+                                        BackgroundColor="Transparent"
+                                        Text="✏️"
+                                        FontSize="Medium"
+                                        BorderColor="{StaticResource LakersGold}"
+                                        Clicked="OnEditButtonClicked">
+                                    <Button.Triggers>
+                                        <Trigger TargetType="Button" Property="IsPressed" Value="True">
+                                            <Setter Property="Opacity" Value="0.6"/>
+                                        </Trigger>
+                                    </Button.Triggers>
+                                </Button>
+
+                                <Button Grid.Column="1"
+                                        BackgroundColor="Transparent"
+                                        Text="🗑️"
+                                        FontSize="Medium"
+                                        BorderColor="{StaticResource LakersGold}"
+                                        Clicked="OnDeleteButtonClicked">
+                                    <Button.Triggers>
+                                        <Trigger TargetType="Button" Property="IsPressed" Value="True">
+                                            <Setter Property="Opacity" Value="0.6"/>
+                                        </Trigger>
+                                    </Button.Triggers>
+                                </Button>
+                            </Grid>
+
+                        </Grid>
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+</ContentPage>

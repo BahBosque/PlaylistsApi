@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlaylistsApi.LoginPage"
+             Title="Login">
+
+    <ContentPage.BackgroundColor>
+        <Color>#1F1B24</Color>
+    </ContentPage.BackgroundColor>
+
+    <VerticalStackLayout Padding="30" Spacing="40" VerticalOptions="Center" HorizontalOptions="Center">
+
+        <Label Text="Entrar" 
+               FontSize="28" 
+               HorizontalOptions="Center" 
+               TextColor="{StaticResource LakersGold}" 
+               FontAttributes="Bold" />
+        
+        <Border StrokeThickness="1" Stroke="{StaticResource LakersPurple}" Background="White" StrokeShape="RoundRectangle 12" Padding="5">
+            <VerticalStackLayout>
+                <Entry x:Name="UsernameEntry" 
+                       Placeholder="Email" 
+                       BackgroundColor="Transparent" 
+                       TextColor="Black"
+                       PlaceholderColor="#808080"
+                       WidthRequest="300" />
+            </VerticalStackLayout>
+        </Border>
+
+        <Border StrokeThickness="1" Stroke="{StaticResource LakersPurple}" Background="White" StrokeShape="RoundRectangle 12" Padding="5">
+            <VerticalStackLayout>
+                <Entry x:Name="PasswordEntry" 
+                       Placeholder="Senha" 
+                       IsPassword="True" 
+                       BackgroundColor="Transparent" 
+                       TextColor="Black"
+                       PlaceholderColor="#808080"
+                       WidthRequest="300" />
+            </VerticalStackLayout>
+        </Border>
+
+        <Button x:Name="LoginButton"
+                Text="Entrar" 
+                TextColor="White" 
+                Pressed="OnButtonPressed"
+                Released="OnButtonReleased"
+                Clicked="OnLoginButtonClicked"
+                BackgroundColor="{StaticResource LakersPurple}" 
+                FontSize="18"
+                CornerRadius="25"
+                HeightRequest="50"
+                WidthRequest="200" />
+
+        <Button Text="Não tem uma conta? Cadastre-se" 
+               FontSize="14" 
+               HorizontalOptions="Center"
+               TextColor="{StaticResource LakersGold}" 
+               Clicked="OnRegisterButtonClicked" />
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,42 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlaylistsMaui.CadastroPage"
+             Title="Cadastro">
+
+    <VerticalStackLayout Padding="30" Spacing="25" BackgroundColor="{StaticResource LakersPurple}">
+        <Label Text="Cadastre-se"
+               FontSize="Large"
+               FontAttributes="Bold"
+               TextColor="{StaticResource LakersGold}"
+               HorizontalOptions="Center"/>
+
+        <Entry x:Name="NomeEntry"
+               Placeholder="Nome Completo"
+               FontSize="Medium"
+               TextColor="Black"
+               WidthRequest="300"
+               BackgroundColor="White"
+               HorizontalOptions="Center"/>
+
+        <Entry x:Name="EmailEntry"
+               Placeholder="E-mail"
+               FontSize="Medium"
+               TextColor="Black"
+               WidthRequest="300"
+               BackgroundColor="White"
+               HorizontalOptions="Center"/>
+
+        <Entry x:Name="PasswordEntry"
+               Placeholder="Senha"
+               IsPassword="True"
+               FontSize="Medium"
+               TextColor="Black"
+               WidthRequest="300"
+               BackgroundColor="White"
+               HorizontalOptions="Center"/>
+
+        <Button Text="Criar Conta"
+                Style="{StaticResource ButtonStyle}"
+                Clicked="OnCreateAccountButtonClicked"/>
+    </VerticalStackLayout>
+</ContentPage>
